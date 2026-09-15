@@ -1,0 +1,86 @@
+[
+  {
+    "name": "500-AI-Agents-Projects",
+    "repo": "ashishpatel26/500-AI-Agents-Projects",
+    "url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
+    "category": "reference-directory",
+    "language": "Python",
+    "license": "MIT",
+    "stars": 37746,
+    "summary": "Curated collection of AI agent use cases across industries with links to open-source implementations.",
+    "relevance": "Idea-sourcing when scoping a new agent project.",
+    "added": "2026-09-15"
+  },
+  {
+    "name": "CloakBrowser",
+    "repo": "CloakHQ/CloakBrowser",
+    "url": "https://github.com/CloakHQ/CloakBrowser",
+    "category": "browser-automation",
+    "language": "Python",
+    "license": "MIT",
+    "stars": 31455,
+    "summary": "Stealth Chromium that passes bot detection tests; drop-in Playwright replacement with source-level fingerprint patches.",
+    "relevance": "Directly useful for scraping/automation work our Playwright e2e suites don't already cover.",
+    "added": "2026-09-15"
+  },
+  {
+    "name": "AiSOC",
+    "repo": "beenuar/AiSOC",
+    "url": "https://github.com/beenuar/AiSOC",
+    "category": "security-ops",
+    "language": "Python",
+    "license": "MIT",
+    "stars": 2373,
+    "summary": "Open-source AI-powered Security Operations Center: alert fusion, purple-team drills, agent-assisted triage, MITRE ATT&CK investigation.",
+    "relevance": "Reference if we ever build or evaluate security monitoring tooling.",
+    "added": "2026-09-15"
+  },
+  {
+    "name": "ai-engineering-from-scratch",
+    "repo": "rohitg00/ai-engineering-from-scratch",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "category": "learning-reference",
+    "language": "Python",
+    "license": "MIT",
+    "stars": 54636,
+    "summary": "Hands-on tutorials for building AI agents from scratch: LLM APIs, prompt engineering, tool calling, the agent loop.",
+    "relevance": "Onboarding material, not a dependency.",
+    "added": "2026-09-15"
+  },
+  {
+    "name": "archify",
+    "repo": "tt-a1i/archify",
+    "url": "https://github.com/tt-a1i/archify",
+    "category": "claude-code-skill",
+    "language": "JavaScript",
+    "license": "MIT",
+    "stars": 62869,
+    "summary": "Agent skill for architecture, workflow, sequence, data-flow, and lifecycle diagrams as self-contained, verifiable HTML.",
+    "relevance": "Candidate to actually install as a skill under ~/.claude/skills.",
+    "added": "2026-09-15"
+  },
+  {
+    "name": "Keycloak",
+    "repo": "keycloak/keycloak",
+    "url": "https://github.com/keycloak/keycloak",
+    "category": "auth-infra",
+    "language": "Java",
+    "license": "Apache-2.0",
+    "stars": 36778,
+    "summary": "Mature, enterprise-grade open-source identity and access management for modern applications and services.",
+    "relevance": "Heavyweight self-hosted IAM option if a project ever needs full SSO/SAML beyond Supabase Auth.",
+    "added": "2026-09-15"
+  },
+  {
+    "name": "Logto",
+    "repo": "logto-io/logto",
+    "url": "https://github.com/logto-io/logto",
+    "category": "auth-infra",
+    "language": "TypeScript",
+    "license": "MPL-2.0",
+    "stars": 14558,
+    "summary": "Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.",
+    "relevance": "Directly relevant to Shift Tasks' multi-provider auth generalization work — lighter-weight than Keycloak, same TypeScript stack.",
+    "added": "2026-09-15"
+  }
+]
