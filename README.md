@@ -20,6 +20,18 @@ curl -s https://raw.githubusercontent.com/FrameShiftForge/tools-catalog/main/too
 | [archify](tools/archify.md) | Claude Code skill | 62.9k | Agent skill for architecture/workflow/sequence/data-flow diagrams as self-contained HTML | Candidate to actually install as a skill (`~/.claude/skills`) |
 | [Keycloak](tools/keycloak.md) | Auth infra (IAM) | 36.8k | Mature, enterprise-grade open-source identity & access management (Java) | Heavyweight self-hosted IAM option if a project ever needs full SSO/SAML beyond Supabase Auth |
 | [Logto](tools/logto.md) | Auth infra (IAM) | 14.6k | Open-source auth for SaaS/AI apps: OIDC + OAuth 2.1, multi-tenancy, SSO, RBAC (TypeScript) | **Directly relevant** to Shift Tasks' multi-provider auth generalization work — lighter-weight than Keycloak, same TS stack |
+| [site-teardown](tools/site-teardown.md) | Claude Code skill | 4 | Reverse-engineers a site's HTML/CSS/JS into a tech-stack + design-system + build blueprint | Installed at `~/.claude/skills/site-teardown` — competitive research before building |
+| [funnel-spy](tools/funnel-spy.md) | Claude Code skill | 4 | Walks a competitor's whole funnel (pages, offer ladder, ad signals) into a scored teardown | Installed at `~/.claude/skills/funnel-spy` — competitive research before building |
+
+## Portable agent instructions
+
+[`web-design-agents-playbook.md`](web-design-agents-playbook.md) — a plain-text distillation of
+this team's web-design/conversion/SEO Claude skills (hero design, page structure, copywriting,
+social proof, cognitive ease, visual polish, CRO, Core Web Vitals, technical SEO, and the two
+teardown skills above), written so a tool that **can't** read `~/.claude/skills/` — Codex, or any
+other coding agent — still gets the operative rules. Drop it into a project's own `AGENTS.md`
+when working outside Claude Code. Kept live at `~/.codex/AGENTS.md` on the machine it was
+authored on; treat that as the primary copy and this one as the portable/shareable mirror.
 
 ## Conventions
 
