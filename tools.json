@@ -82,5 +82,29 @@
     "summary": "Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.",
     "relevance": "Directly relevant to Shift Tasks' multi-provider auth generalization work — lighter-weight than Keycloak, same TypeScript stack.",
     "added": "2026-09-15"
+  },
+  {
+    "name": "site-teardown",
+    "repo": "23ag1/site-teardown-skill",
+    "url": "https://github.com/23ag1/site-teardown-skill",
+    "category": "claude-code-skill",
+    "language": "Markdown",
+    "license": null,
+    "stars": 4,
+    "summary": "Reverse-engineers a website's HTML/JS/CSS into a tech-stack, design-system, effects, and build-blueprint document.",
+    "relevance": "Installed at ~/.claude/skills/site-teardown for competitive research before building.",
+    "added": "2026-09-15"
+  },
+  {
+    "name": "funnel-spy",
+    "repo": "Mahanaicoach/funnel-spy",
+    "url": "https://github.com/Mahanaicoach/funnel-spy",
+    "category": "claude-code-skill",
+    "language": "Markdown/Python",
+    "license": "MIT",
+    "stars": 4,
+    "summary": "Walks a competitor's whole sales funnel into a scored, sourced teardown dossier: pages, offer ladder, ad signals, tracking pixels.",
+    "relevance": "Installed at ~/.claude/skills/funnel-spy for competitive research before building.",
+    "added": "2026-09-15"
   }
 ]
